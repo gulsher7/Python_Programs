@@ -4,8 +4,8 @@ class Laptop:
         self.laptop_model_no = model_no
         self.laptop_price = price
 
-    def discount(self,dis):
-        self.discount_price = (dis/100)*self.laptop_price
+    def discount(self,discount_price):
+        self.discount_price = (discount_price/100)*self.laptop_price
         self.discount_price = self.laptop_price - self.discount_price 
 
         
